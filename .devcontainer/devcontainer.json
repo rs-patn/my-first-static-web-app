@@ -8,7 +8,7 @@
 			"TERRAFORM_VERSION": "1.1.4",
 			"INSTALL_AZURE_CLI": "true",
 			"INSTALL_DOCKER": "false",
-			"NODE_VERSION": "none"
+			"NODE_VERSION": "14"
 		}
 	},
 	"mounts": [ "source=/var/run/docker.sock,target=/var/run/docker-host.sock,type=bind" ],
@@ -29,7 +29,8 @@
 		"hashicorp.terraform",
 		"ms-vscode.azurecli",
 		"ms-azuretools.vscode-azureterraform",
-		"ms-azuretools.vscode-azurestaticwebapps"
+		"ms-azuretools.vscode-azurestaticwebapps",
+		"ms-azuretools.vscode-azurefunctions"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
