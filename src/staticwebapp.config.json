@@ -1,13 +1,7 @@
 {
     "routes": [
         {
-            "route": "/src/index.html",
-            "headers": {
-                "cache-control": "max-age=0"
-            }
-        },
-        {
-            "route": "/src/styles.css",
+            "route": "/src/*.{html,css}",
             "headers": {
                 "cache-control": "max-age=0"
             }
