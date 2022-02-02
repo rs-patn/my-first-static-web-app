@@ -1,19 +1,19 @@
 {
     "routes": [
         {
-            "route": "/src/*.{html,css}",
+            "route": "/src/index.html",
             "headers": {
                 "cache-control": "max-age=0"
             }
         },
         {
-            "route": "/src/hello/*.js",
+            "route": "/src/styles.css",
             "headers": {
-                "cache-control": "max-age=120"
+                "cache-control": "max-age=0"
             }
         },
         {
-            "route": "/api/message/*.js",
+            "route": "/src/hello/hello_world.js",
             "headers": {
                 "cache-control": "max-age=120"
             }
