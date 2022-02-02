@@ -1,0 +1,16 @@
+{
+    "routes": [
+        {
+            "route": "/src/index.html",
+            "headers": {
+                "cache-control": "max-age=0"
+            }
+        },
+        {
+            "route": "/api/message/*.js",
+            "headers": {
+                "cache-control": "max-age=120"
+            }
+        }
+    ]
+}
