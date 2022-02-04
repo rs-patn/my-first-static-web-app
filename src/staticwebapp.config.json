@@ -1,15 +1,9 @@
 {
     "routes": [
         {
-            "route": "/src/*.{html,css}",
+            "route": "/src/*.html",
             "headers": {
-                "cache-control": "max-age=300"
-            }
-        },
-        {
-            "route": "/src/hello/hello_world.js",
-            "headers": {
-                "cache-control": "max-age=300"
+                "cache-control": "public, max-age=300, must-revalidate"
             }
         }
     ]
