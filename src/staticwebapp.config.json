@@ -1,7 +1,7 @@
 {
     "routes": [
         {
-            "route": "/src/*.html",
+            "route": "src/*.html",
             "headers": {
                 "cache-control": "public, max-age=300, must-revalidate"
             }
