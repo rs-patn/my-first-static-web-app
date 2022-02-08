@@ -5,12 +5,9 @@
             "headers": {
                 "cache-control": "max-age=0"
             }
-        },
-        {
-            "route": "./src/hello/*.js",
-            "headers": {
-                "cache-control": "max-age=300"
-            }
         }
-    ]
+    ],
+    "globalHeaders": {
+        "Cache-Control": "public, max-age=300"
+    }
 }
