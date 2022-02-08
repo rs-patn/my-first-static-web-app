@@ -3,7 +3,7 @@
         {
             "route": "./src/*.{html,css}",
             "headers": {
-                "cache-control": "max-age=0"
+                "Cache-Control": "max-age=0"
             }
         }
     ],
