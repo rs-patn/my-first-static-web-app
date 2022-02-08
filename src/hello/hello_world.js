@@ -1,1 +1,1 @@
-console.log("Hello World from Static Web Apps!");
+console.log("Hello World!");
