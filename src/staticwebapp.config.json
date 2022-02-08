@@ -8,6 +8,6 @@
         }
     ],
     "globalHeaders": {
-        "Cache-Control": "public, max-age=300"
+        "Cache-Control": "public, max-age=120"
     }
 }
