@@ -1,1 +1,1 @@
-console.log("Hello World!");
+console.log("Hello World from Azure Static Web Apps!");
