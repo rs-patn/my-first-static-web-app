@@ -1,7 +1,7 @@
 {
     "routes": [
         {
-            "route": "./src/*.{html,css}",
+            "route": "./src/*.html",
             "headers": {
                 "Cache-Control": "max-age=0"
             }
